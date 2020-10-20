@@ -17,9 +17,8 @@ void ShellSortLong(long array[], long tamanho);
 
 int main(int argc, char** argv){
 	
-	int array[] = {23, 29, 15, 19, 31, 7, 9, 5, 2};
-	ShellSort(array, 9);
-	PrintArray(array, 9);
+	ShellSortLong(arrayCem, 100000);
+	PrintArrayLong(arrayCem, 100000);
 	
 }
 
